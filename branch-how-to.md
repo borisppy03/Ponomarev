@@ -4,3 +4,7 @@
 git branch name_of_branch
 Для переключения в ветку используйте команду
 git checkout name_of_branch
+Теперь можно как обычно (командами git add, git commit -m "text of commit", git push) работать с репозиторием.
+Но все изменения будут в отдельной ветке.
+При первом push'e возникнет ошибка, в терминале будет строчка для push'a новой ветки.
+git push --set-upstream origin Naumkin
